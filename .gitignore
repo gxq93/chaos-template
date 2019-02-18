@@ -1,0 +1,6 @@
+/node_modules
+/coverage
+#忽略build目录
+/build
+#npm run build-debug-page 生成
+/debug/server/resource

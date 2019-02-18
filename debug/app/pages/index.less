@@ -1,0 +1,107 @@
+body {
+  background-color: #fff;
+  margin: 0;
+
+  .header {
+    padding: 0 40px;
+    background-color: #fff;
+    position: relative;
+    line-height: 80px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.08);
+  }
+  
+  input {
+    position: absolute;
+    right: 356px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 240px;
+    height: 32px;
+    padding: 0 12px;
+    background: #E8EAEF;
+    border-radius: 5px;
+    border: none;
+  }
+
+  select {
+    position: absolute;
+    right: 656px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 32px;
+    padding: 0 12px;
+    background: #E8EAEF;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    width: 88px;
+    height: 32px;
+    color: #fff;
+    border-radius: 16px;
+    outline: none;
+  }
+  
+  .confirm {
+    position: absolute;
+    right: 245px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FF4D58;
+    border: 1px solid #FF4D58;
+  }
+  
+  .reset {
+    position: absolute;
+    right: 140px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #218fff;
+    border: 1px solid #218fff;
+  }
+
+  .edit {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #218fff;
+    border: 1px solid #218fff;
+  }
+  
+  .json-content {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+  }
+  
+  .left {
+    display: flex;
+    flex: 1;
+    border-right: 1px solid #e5e5e5;
+    overflow: scroll;
+  }
+  
+  textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .react-json-view {
+    padding: 20px 40px;
+  }
+  
+  .right {
+    flex: 1;
+    overflow: scroll;
+  }
+}
