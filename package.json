@@ -1,7 +1,7 @@
 {
-  "name": "retail-trade-middle-layer",
-  "version": "1.0.0",
-  "description": "test",
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
   "main": "index.js",
   "scripts": {
     "debug-server": "nodemon --watch services debug/server/server.js",
@@ -11,7 +11,7 @@
     "lint": "eslint --fix --ext .js services/",
     "test": "jest --no-cache"
   },
-  "author": "",
+  "author": "{{projectAuthor}}",
   "license": "ISC",
   "dependencies": {
     "app-module-path": "^2.1.0",
