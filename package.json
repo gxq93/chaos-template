@@ -2,16 +2,16 @@
   "name": "{{projectName}}",
   "version": "{{projectVersion}}",
   "description": "{{projectDescription}}",
+  "author": "{{projectAuthor}}",
   "main": "index.js",
   "scripts": {
-    "debug-server": "nodemon --watch services debug/server/server.js",
-    "debug-page": "run-p build-debug-page debug-server",
+    "debug": "run-p build-debug-page debug-server",
     "build": "webpack --config webpack.config.production.js",
+    "debug-server": "nodemon --watch services debug/server/server.js",
     "build-debug-page": "webpack --config webpack.config.development.js",
     "lint": "eslint --fix --ext .js services/",
     "test": "jest --no-cache"
   },
-  "author": "{{projectAuthor}}",
   "license": "ISC",
   "dependencies": {
     "app-module-path": "^2.1.0",

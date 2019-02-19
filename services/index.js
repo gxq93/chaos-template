@@ -1,6 +1,7 @@
 const demo = require('./demo/index')
+const packageInfo = require('../package.json')
 
 module.exports = {
   demo,
-  version: '1.0.0'
+  version: packageInfo.version
 }
